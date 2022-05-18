@@ -1078,4 +1078,5 @@ class TestDecompiler(unittest.TestCase):
         assert new_len > old_len, "un-collapsing node should expand decompilation output"
 
 if __name__ == "__main__":
-    unittest.main()
+    TestDecompiler().test_decompiling_amp_challenge03_arm()
+    # unittest.main()
